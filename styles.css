@@ -1,6 +1,6 @@
 body {
     background: rgb(26, 27, 39);
-    color: white;
+    color: lightseagreen;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     letter-spacing: 2px;
@@ -8,13 +8,16 @@ body {
 
 img {
     border-radius: 50%;
-    border-color: white;
     border-style: solid;
+    border-color: slateblue;
+    border-width: 3px;
+    background-color: slateblue;
+    width: 75%;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: lightseagreen;
     transition: color 1s; 
 }
 
@@ -22,7 +25,7 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 15%;
+    width: 10%;
 }
 
 .profile_intro {
@@ -31,7 +34,7 @@ a {
 }
 
 .profile_1 {
-    color: gray;
+    color: slateblue;
     text-align: center;
     font-size: 20px;
 }
@@ -43,7 +46,7 @@ a {
 }
 
 .profile_3 {
-    color: gray;
+    color: slateblue;
     text-align: center;
     font-size: 20px;
 }
@@ -51,78 +54,83 @@ a {
 .link_github {
     display: block;
     text-align: center;
-    border: solid white;
+    border: solid slateblue;
     border-radius: 6px;
-    border-width: 0.75px;
+    border-width: 1px;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
     margin-top: 60px;
     padding: 20px;
+    transition: color 0s;
 }
 
 .link_github:hover {
     display: block;
     text-align: center;
-    border: solid white;
+    border: solid rgb(254,90,29);
     border-radius: 6px;
-    border-width: 0.75px;
+    border-width: 1px;
     margin-left: auto;
     margin-right: auto;
     width: 400px;
     margin-top: 60px;
     padding: 20px;
-    background: blue;
+    background: rgb(254,90,29);
     transition: 0.5s;
+    color: white;
 }
 
 .link_lin {
     display: block;
     text-align: center;
-    border: solid white;
+    border: solid slateblue;
     border-radius: 6px;
-    border-width: 0.75px;
+    border-width: 1px;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
     margin-top: 20px;
     padding: 20px;
+    transition: color 0s;
 }
 
 .link_lin:hover {
     display: block;
     text-align: center;
-    border: solid white;
+    border: solid rgb(0, 114, 177);
     border-radius: 6px;
-    border-width: 0.75px;
+    border-width: 1px;
     margin-left: auto;
     margin-right: auto;
     width: 400px;
     margin-top: 20px;
     padding: 20px;
-    background: green;
+    background: rgb(0, 114, 177);
     transition: 0.5s;
+    color: white;
 }
 
 .link_email {
     display: block;
     text-align: center;
-    border: solid white;
+    border: solid slateblue;
     border-radius: 6px;
-    border-width: 0.75px;
+    border-width: 1px;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
     margin-top: 20px;
     padding: 20px;
+    transition: color 0s;
 }
 
 .link_email:hover {
     display: block;
     text-align: center;
-    border: solid white;
+    border: solid purple;
     border-radius: 6px;
-    border-width: 0.75px;
+    border-width: 1px;
     margin-left: auto;
     margin-right: auto;
     width: 400px;
@@ -130,11 +138,20 @@ a {
     padding: 20px;
     background: purple;
     transition: 0.5s;
+    color: white;
 }
 
 .bottom_text {
+    position: fixed;
+    bottom: 0;
     text-align: center;
-    padding: 60px;
+    width: 100%;
+}
+
+.bottom_text_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .copyright {
