@@ -66,22 +66,6 @@ a {
     transition: color 0s;
 }
 
-.link_github:hover {
-    display: block;
-    text-align: center;
-    border: solid rgb(254,90,29);
-    border-radius: 6px;
-    border-width: 1px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    margin-top: 60px;
-    padding: 20px;
-    background: rgb(254,90,29);
-    transition: 0.5s;
-    color: white;
-}
-
 .link_lin {
     display: block;
     text-align: center;
@@ -94,22 +78,6 @@ a {
     margin-top: 20px;
     padding: 20px;
     transition: color 0s;
-}
-
-.link_lin:hover {
-    display: block;
-    text-align: center;
-    border: solid rgb(0, 114, 177);
-    border-radius: 6px;
-    border-width: 1px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    margin-top: 20px;
-    padding: 20px;
-    background: rgb(0, 114, 177);
-    transition: 0.5s;
-    color: white;
 }
 
 .link_email {
@@ -126,20 +94,55 @@ a {
     transition: color 0s;
 }
 
-.link_email:hover {
-    display: block;
-    text-align: center;
-    border: solid purple;
-    border-radius: 6px;
-    border-width: 1px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    margin-top: 20px;
-    padding: 20px;
-    background: purple;
-    transition: 0.5s;
-    color: white;
+@media (hover: hover) {
+    .link_github:hover {
+        display: block;
+        text-align: center;
+        border: solid rgb(254,90,29);
+        border-radius: 6px;
+        border-width: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        margin-top: 60px;
+        padding: 20px;
+        background: rgb(254,90,29);
+        transition: 0.5s;
+        color: white;
+    }
+
+    .link_lin:hover {
+        display: block;
+        text-align: center;
+        border: solid rgb(0, 114, 177);
+        border-radius: 6px;
+        border-width: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        margin-top: 20px;
+        padding: 20px;
+        background: rgb(0, 114, 177);
+        transition: 0.5s;
+        color: white;
+    }
+
+    .link_email:hover {
+        display: block;
+        text-align: center;
+        border: solid purple;
+        border-radius: 6px;
+        border-width: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        margin-top: 20px;
+        padding: 20px;
+        background: purple;
+        transition: 0.5s;
+        color: white;
+    }
+
 }
 
 .bottom_text {
