@@ -80,6 +80,20 @@ a {
     transition: color 0s;
 }
 
+.link_twtr {
+    display: block;
+    text-align: center;
+    border: solid slateblue;
+    border-radius: 6px;
+    border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 20px;
+    padding: 20px;
+    transition: color 0s;
+}
+
 .link_email {
     display: block;
     text-align: center;
@@ -123,6 +137,22 @@ a {
         margin-top: 20px;
         padding: 20px;
         background: rgb(0, 114, 177);
+        transition: 0.5s;
+        color: white;
+    }
+
+    .link_twtr:hover {
+        display: block;
+        text-align: center;
+        border: solid rgb(29, 161, 242);
+        border-radius: 6px;
+        border-width: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        margin-top: 20px;
+        padding: 20px;
+        background: rgb(29, 161, 242);
         transition: 0.5s;
         color: white;
     }
