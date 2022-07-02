@@ -146,16 +146,8 @@ a {
 }
 
 .bottom_text {
-    position: fixed;
-    bottom: 0;
+    padding-top: 120px;
     text-align: center;
-    width: 100%;
-}
-
-.bottom_text_center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .copyright {
